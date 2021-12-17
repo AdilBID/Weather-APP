@@ -1,0 +1,43 @@
+html {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+    background: lightblue;}
+
+.night-mode {
+    background: linear-gradient(#550066, #FFDDBB);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.upper-div {
+    margin-top: -28vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* .resultweather {
+    align-items: center;
+    text-align: center;
+} */
+
+.result {
+    display: inline-grid;
+    margin: 30px;
+}
+
+.weather-icon {
+    width: 6rem;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
